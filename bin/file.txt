@@ -1,0 +1,2 @@
+- lookbusy-1.4-amd64: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=111dbdb0a907ab4347caeacfce695e9cbd35c1ae, for GNU/Linux 3.2.0, with debug_info, not stripped
+- lookbusy-1.4-arm64: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=8023f95608bd15f22793c30b92442f30b550327f, for GNU/Linux 3.7.0, with debug_info, not stripped
