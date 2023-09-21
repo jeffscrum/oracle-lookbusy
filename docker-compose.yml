@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  lookbusy:
+    image: lookbusy:latest
+    container_name: lookbusy
+    hostname: lookbusy
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Moscow
+      - CPU_UTIL=10-20 # CPU waste, in %, cannot be omitted, supports fixed values or ranges
+      - CPU_CORE=1 # CPU waste the number of cores, do not specify the default run full-core, appear the case of CPU hit full can be specified as 1-core
+      - MEM_UTIL=20 # Memory usage in %, can be omitted if not running memory
+      - SPEEDTEST_INTERVAL=120 # Network speed interval, unit minutes, can be omitted if not running the network
